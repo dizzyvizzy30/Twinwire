@@ -1,0 +1,13 @@
+{
+  "name": "twinwire-backend",
+  "private": true,
+  "type": "module",
+  "description": "Twinwire backend v0: database schema, filter before AI, AI gateway with a daily spend cap.",
+  "scripts": {
+    "test": "node --experimental-strip-types --no-warnings --test tests/*.test.ts",
+    "demo": "node --experimental-strip-types --no-warnings scripts/demo_events.ts"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.14"
+  }
+}
